@@ -1,32 +1,30 @@
-# 陈奕洁的个人网站
+# 陈奕洁 · 开进我的世界
 
-使用 HTML、CSS 和 JavaScript 制作的静态个人网站，支持手机和电脑浏览，无需安装依赖。
+可驾驶小车的互动个人网站。以等距投影的立体场景展示关于我、健身篮球、FPS 游戏、hip-hop、学习工作经历与联系方式。
 
-## 文件说明
+在线访问：https://cyijie788-coder.github.io/chen-yijie-website/
 
-- `index.html`：完整网页，包含页面样式、个人介绍、联系方式和复制号码功能。
-- `chen-yijie.vcf`：可下载的联系人名片。
+## 文件
 
-## 查看网站
+- `index.html`：网页、样式、场景绘制和驾驶逻辑。没有外部运行时依赖。
+- `chen-yijie.vcf`：联系人名片。
 
-双击 `index.html` 即可打开。也可以在本目录运行 `python3 -m http.server 8000`，然后访问 http://localhost:8000。
+## 操作
 
-## 修改与备份
+- WASD 或方向键：前进、后退和转向。
+- 空格：刹车。E：打开附近地点。M：地图。R：回到起点。
+- 手机：左下角方向按钮驾驶，点击地点提示阅读。
+- 地图 / 介绍：可直接打开所有地点，无需驾驶。
+- ESC：关闭介绍。支持键盘 Tab 导航。
 
-使用文本编辑器修改 `index.html`。修改姓名或电话时，请同步更新 `chen-yijie.vcf`。
+## 本地查看
 
-代码备份仓库：https://github.com/cyijie788-coder/chen-yijie-website
+双击 index.html，或在本目录执行 `python3 -m http.server 8000` 并访问 http://localhost:8000。
 
-GitHub 的提交记录用于保留历史版本。若使用命令行管理，先用 `git clone https://github.com/cyijie788-coder/chen-yijie-website.git` 下载仓库并进入下载的目录，再修改文件。每次修改后执行：
+## 更新
 
-```sh
-git add .
-git commit -m "更新个人网站"
-git push
-```
+修改文件并上传到 GitHub 的 main 分支，GitHub Pages 会自动重新部署。仅修改本地文件不会自动同步。修改电话时也请同步更新联系人名片。
 
-只有成功推送的提交才会同步到 GitHub；本地修改不会自动上传。
+## 公开内容
 
-## 隐私
-
-文件包含个人电话号码，建议使用私有仓库保存。网站是否对外上线与代码是否备份到 GitHub 是两件独立的事。
+仓库和网页均为公开，含本人提供的个人介绍和联系电话。页面年龄为手动填写，后续可自行更新。
