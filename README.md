@@ -6,7 +6,8 @@
 
 ## 文件与功能
 
-- `index.html`：首页，包含深浅色切换、站内搜索、收藏分类、图片放大和联系方式。
+- `index.html`：首页，包含个人照片拼贴、音乐歌单、深浅色切换、站内搜索、收藏分类、图片放大和联系方式。
+- `refinements.css`：个人风格与手机、平板排版。
 - `play.html`：保留的小车互动世界，支持 WASD / 方向键和手机方向按钮，E 查看地点、M 地图、R 归位。
 - `assets/`：优化后的照片与收藏图片。
 - `chen-yijie.vcf`：联系人名片。
@@ -27,6 +28,17 @@
 | ocean.jpg | screenshot-20261109-194058.png |
 | evening.jpg | screenshot-20261109-195155.png |
 | mood.jpg | screenshot-20261109-194700.png |
+| xuanniao.jpg | screenshot-20261109-193736.png |
+| day1.jpg | screenshot-20261109-193605.png |
+
+## 音乐
+
+按本人要求将两张收藏图分别搭配《玄鸟》与《Day1》，封面作为个人视觉搭配展示。
+
+- CashTrippy《玄鸟》：汽水音乐 https://www.douyin.com/qishui/song/7483910887968393232
+- 艾志恒 Asen《DAY1 (2020)》：Apple Music https://music.apple.com/us/album/day1-2020/1803093058?i=1803093172
+- 两首均提供 Apple iTunes 公开接口返回的 30 秒试听地址，仅通过访客点击播放；切换歌曲时暂停上一首。试听文件未下载或存入仓库，完整歌曲通过音乐平台访问。
+- 试听来源查询：https://itunes.apple.com/lookup?id=1803093058&entity=song 及 https://itunes.apple.com/search?term=CashTrippy&entity=song&limit=100&country=us
 
 ## 本地查看与更新
 
