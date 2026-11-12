@@ -1,0 +1,17 @@
+{
+  "name": "05_齿轮运转",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/05_齿轮运转.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 362,
+  "duration": 6.033333333333333,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 0,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 93671700,
+  "elapsedSeconds": 16.559
+}

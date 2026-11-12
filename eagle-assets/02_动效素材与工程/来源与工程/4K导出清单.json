@@ -1,0 +1,172 @@
+[
+  {
+    "name": "01_汽车行驶",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/01_汽车行驶.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 154,
+    "duration": 2.566666666666667,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 11547640,
+    "elapsedSeconds": 2.934
+  },
+  {
+    "name": "02_高速公路",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/02_高速公路.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 440,
+    "duration": 7.333333333333333,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 135314940,
+    "elapsedSeconds": 17.006
+  },
+  {
+    "name": "03_速度仪表",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/03_速度仪表.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 180,
+    "duration": 3,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 10777839,
+    "elapsedSeconds": 2.842
+  },
+  {
+    "name": "04_充电加载",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/04_充电加载.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 158,
+    "duration": 2.6333333333333333,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 11132658,
+    "elapsedSeconds": 3.36
+  },
+  {
+    "name": "05_齿轮运转",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/05_齿轮运转.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 362,
+    "duration": 6.033333333333333,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 93671700,
+    "elapsedSeconds": 16.559
+  },
+  {
+    "name": "06_维修扳手",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/06_维修扳手.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 156,
+    "duration": 2.6,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 1,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 20249047,
+    "elapsedSeconds": 5.612
+  },
+  {
+    "name": "07_注意警示",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/07_注意警示.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 180,
+    "duration": 3,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 1,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 6313030,
+    "elapsedSeconds": 2.767
+  },
+  {
+    "name": "08_方向箭头",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/08_方向箭头.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 134,
+    "duration": 2.2333333333333334,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 14673302,
+    "elapsedSeconds": 3.494
+  },
+  {
+    "name": "09_地图定位",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/09_地图定位.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 240,
+    "duration": 4,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 1,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 11812993,
+    "elapsedSeconds": 4.551
+  },
+  {
+    "name": "10_闪光高亮",
+    "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/10_闪光高亮.mov",
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 121,
+    "duration": 2.0166666666666666,
+    "rendered_from": "original vector JSON, not resized GIF",
+    "removedWhiteBackgroundLayers": 0,
+    "alpha": {
+      "min": 0,
+      "max": 255
+    },
+    "bytes": 9829287,
+    "elapsedSeconds": 3.094
+  }
+]

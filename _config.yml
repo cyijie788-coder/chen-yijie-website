@@ -1,0 +1,3 @@
+# Eagle archive contains source assets and LFS objects, not public site pages.
+exclude:
+  - eagle-assets

@@ -1,0 +1,17 @@
+{
+  "name": "01_汽车行驶",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/01_汽车行驶.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 154,
+  "duration": 2.566666666666667,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 0,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 11547640,
+  "elapsedSeconds": 2.934
+}

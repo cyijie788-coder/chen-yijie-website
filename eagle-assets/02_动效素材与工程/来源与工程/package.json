@@ -1,0 +1,1 @@
+{"name":"auto-motion-export","private":true,"type":"module","dependencies":{"@lottiefiles/dotlottie-web":"^0.83.1","@napi-rs/canvas":"^0.1.80"}}

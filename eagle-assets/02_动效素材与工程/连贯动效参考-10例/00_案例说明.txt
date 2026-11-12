@@ -1,0 +1,58 @@
+连贯动效参考｜onetake 原作者案例｜10例
+整理日期：2026-11-12
+本批为原作者公开演示片，全部为1920×1080，保留原始30/60fps，不是4K素材。
+Required Notice: Copyright (c) 2026 Patrick. onetake is free for noncommercial use only.
+许可：https://github.com/feitangyuan/onetake/blob/main/LICENSE
+公开案例不包含每部影片的完整制作源码。
+
+推荐先看01（三段创意接续）、02（圆点连续变形）、03（动作连锁）。
+
+01_onetake_三段创意一镜到底
+提示框直接展开成下一段画面，多个创意在一条连续镜头里接续。
+1920×1080 / 30/1 fps / 30.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/onetake-launch-30s/onetake-launch.mp4
+
+02_one-dot_圆点连续变形
+同一个圆点从光标变为菜单、进度环、曲线和标志细节。
+1920×1080 / 60/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/one-dot-15s/one-dot.mp4
+
+03_knockon_碰撞连锁反应
+前一个元素的碰撞，直接触发下一个元素和场景的动作。
+1920×1080 / 30/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/knockon-15s/knockon.mp4
+
+04_clearing_时间轴连续缩放
+从年度日历推近到半小时空档，连续缩放带出信息层级。
+1920×1080 / 30/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/clearing-15s/clearing.mp4
+
+05_pith_像素展开为界面
+从单个发光像素连续拉远，逐渐展开完整产品界面。
+1920×1080 / 30/1 fps / 21.50 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/pith-21s/pith.mp4
+
+06_skill-demo_界面元素接力
+菜单选项飞入输入框成为标签，操作元素承接下一步。
+1920×1080 / 30/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/skill-demo-15s/skill-demo.mp4
+
+07_motion-web_字体与界面节奏
+文字、界面、停顿和爆发形成一条有韵律的动态演示。
+1920×1080 / 60/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/motion-web-15s/motion-web.mp4
+
+08_overlap_图形叠印变形
+两层印刷图形滑动对齐，显现藏在两层中的新形状。
+1920×1080 / 30/1 fps / 15.02 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/overlap-15s/overlap.mp4
+
+09_infra_热力场变为图像
+热力图逐块组织、冷却，过渡成最终照片。
+1920×1080 / 30/1 fps / 25.50 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/infra-25s/infra.mp4
+
+10_domino_三维阵列显影
+手机组成像素阵列，三维连续运镜与倒下动作显现画面。
+1920×1080 / 30/1 fps / 25.60 秒
+https://github.com/feitangyuan/onetake/blob/main/cases/domino-25s/domino.mp4

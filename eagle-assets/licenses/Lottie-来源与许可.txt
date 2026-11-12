@@ -1,0 +1,66 @@
+汽车内容动效素材｜10个
+整理日期：2026-11-12
+
+文件说明：
+根目录10个GIF为原站预览，保留原始尺寸与时间参数。
+来源与工程：原始Lottie矢量JSON，可按需要无损改变画布尺寸。
+4K60帧透明动效：从原始矢量重新渲染的3840×2160、60fps MOV，带Alpha透明通道；不是把GIF放大。
+原始矢量文件保持不变；导出时仅移除覆盖整幅画布的纯白实色背景层。
+
+来源与用途：
+01_汽车行驶｜汽车话题开场、日常驾驶
+作者：Umsatz GmbH
+来源：https://lottiefiles.com/free-animation/driving-car-Ddw6lvOiyX
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+02_高速公路｜长途自驾、高速行驶
+作者：Five dimension studio
+来源：https://lottiefiles.com/free-animation/driving-on-the-highway-l4Ngxesjep
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+03_速度仪表｜性能、速度、加速话题
+作者：Emre Altintas
+来源：https://lottiefiles.com/free-animation/speedometer-3lQ5xtRfX7
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+04_充电加载｜充电等待、能量加载、进度提醒
+作者：TheJohn
+来源：https://lottiefiles.com/free-animation/charging-vqISqBg5qY
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+05_齿轮运转｜机械结构、传动、技术解释
+作者：Sergey Designer
+来源：https://lottiefiles.com/free-animation/gear-how-it-works-1nVhDg5eg5
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+06_维修扳手｜维修、保养、工具话题
+作者：Sanjib Paul
+来源：https://lottiefiles.com/free-animation/tool-DLM0MHUQZT
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+07_注意警示｜知识提醒、用车注意事项
+作者：LottieFiles
+来源：https://lottiefiles.com/free-animation/warning-LArZv8rRiX
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+08_方向箭头｜强调重点、指向细节
+作者：Matthias Müller
+来源：https://lottiefiles.com/free-animation/arrows-dal9bTuokv
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+09_地图定位｜路线、目的地、探店介绍
+作者：LottieFiles
+来源：https://lottiefiles.com/free-animation/location-pin-QH4ubW3bMo
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+10_闪光高亮｜亮点、车漆、重点强调
+作者：Anne Tan
+来源：https://lottiefiles.com/free-animation/sparkles-DQkIIriBZO
+许可：Lottie Simple License (FL 9.13.21)｜https://lottiefiles.com/page/license
+
+许可原文：
+Copyright © 2021 Design Barn Inc.
+Permission is hereby granted, free of charge, to any person obtaining a copy of the public animation files available for download at the LottieFiles site (“Files”) to download, reproduce, modify, publish, distribute, publicly display, and publicly digitally perform such Files, including for commercial purposes, provided that any display, publication, performance, or distribution of Files must contain (and be subject to) the same terms and conditions of this license.
+Modifications to Files are deemed derivative works and must also be expressly distributed under the same terms and conditions of this license. You may not purport to impose any additional or different terms or conditions on, or apply any technical measures that restrict exercise of, the rights granted under this license. This license does not include the right to collect or compile Files from LottieFiles to replicate or develop a similar or competing service.
+Use of Files without attributing the creator(s) of the Files is permitted under this license, though attribution is strongly encouraged. If attributions are included, such attributions should be visible to the end user.
+FILES ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL THE CREATOR(S) OF FILES OR DESIGN BARN, INC. BE LIABLE ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF SUCH FILES.

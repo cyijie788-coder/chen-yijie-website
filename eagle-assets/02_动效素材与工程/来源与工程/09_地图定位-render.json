@@ -1,0 +1,17 @@
+{
+  "name": "09_地图定位",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/09_地图定位.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 240,
+  "duration": 4,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 1,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 11812993,
+  "elapsedSeconds": 4.551
+}

@@ -1,0 +1,573 @@
+[
+  {
+    "id": "MW90RH7E5V2T3",
+    "name": "旧藏图片目录",
+    "description": "保留的旧导入目录，当前目录内无素材。",
+    "children": [
+      {
+        "id": "MW90RUEFZS4ON",
+        "name": "Pictures",
+        "description": "",
+        "children": [
+          {
+            "id": "MW90RUHHHZ1M1",
+            "name": "灵感.library",
+            "description": "",
+            "children": [
+              {
+                "id": "MW90RUHIZ23C3",
+                "name": "backup",
+                "description": "",
+                "children": [],
+                "modificationTime": 1794214139671,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "backup",
+                "password": "",
+                "passwordTips": ""
+              },
+              {
+                "id": "MW90RUHIAVFEI",
+                "name": "images",
+                "description": "",
+                "children": [],
+                "modificationTime": 1794214139671,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "images",
+                "password": "",
+                "passwordTips": ""
+              }
+            ],
+            "modificationTime": 1794214139670,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "LINGGAN.library",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MW90RUEGCUK1F",
+            "name": "Photo Booth图库",
+            "description": "",
+            "children": [
+              {
+                "id": "MW90RUEGPPUSR",
+                "name": "Contents",
+                "description": "",
+                "children": [],
+                "modificationTime": 1794214139670,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "Contents",
+                "password": "",
+                "passwordTips": ""
+              },
+              {
+                "id": "MW90RUEHX1LOA",
+                "name": "Pictures",
+                "description": "",
+                "children": [],
+                "modificationTime": 1794214139670,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "Pictures",
+                "password": "",
+                "passwordTips": ""
+              }
+            ],
+            "modificationTime": 1794214139670,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "Photo BoothTUKU",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MW90RUGEQ9PLY",
+            "name": "Photos Library.photoslibrary",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794214139670,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "Photos Library.photoslibrary",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MW90XBJTZKQ0X",
+            "name": "未命名文件夹",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794214395065,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "WEIMINGMINGWENJIANJIA",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794214139670,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "Pictures",
+        "password": "",
+        "passwordTips": ""
+      }
+    ],
+    "modificationTime": 1794214122458,
+    "tags": [],
+    "extendTags": [],
+    "pinyin": "JIUCANGTUPIANMULU",
+    "password": "",
+    "passwordTips": ""
+  },
+  {
+    "id": "MW91F8SP8TUM0",
+    "name": "未命名文件夹",
+    "description": "保留原有子目录和素材，补齐类型标签。",
+    "children": [
+      {
+        "id": "MW91H9A9RPBHE",
+        "name": "素材",
+        "description": "",
+        "children": [
+          {
+            "id": "MW91IV6FCWQMY",
+            "name": "素材",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794215400279,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "SUCAI",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794215325249,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "SUCAI",
+        "password": "",
+        "passwordTips": ""
+      }
+    ],
+    "modificationTime": 1794215231305,
+    "tags": [],
+    "extendTags": [],
+    "pinyin": "WEIMINGMINGWENJIANJIA",
+    "password": "",
+    "passwordTips": ""
+  },
+  {
+    "id": "MWD5JOY572RN3",
+    "name": "未命名文件夹",
+    "description": "保留的空目录，可用于后续收集。",
+    "children": [],
+    "modificationTime": 1794464022029,
+    "tags": [],
+    "extendTags": [],
+    "pinyin": "WEIMINGMINGWENJIANJIA",
+    "password": "",
+    "passwordTips": ""
+  },
+  {
+    "id": "MWD5UTWC1U02B",
+    "name": "汽车素材｜每类3份｜2026-11-12",
+    "description": "36份汽车创作素材，按图片、文字、图表、视频分类；来源和许可见每项备注。",
+    "children": [
+      {
+        "id": "MWD5UTWGWVSHQ",
+        "name": "图片",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD5UTWO7BK86",
+            "name": "单张",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464541672,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "DANZHANG",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5V78C0XEE5",
+            "name": "多张",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464558940,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "DUOZHANG",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5V7MNOJTCA",
+            "name": "PNG",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464559455,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "PNG",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5V8181UY4T",
+            "name": "表情包",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464559980,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "BIAOQINGBAO",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5V8FT8WEUW",
+            "name": "图标",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464560505,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "TUBIAO",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794464541664,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "TUPIAN",
+        "password": "",
+        "passwordTips": ""
+      },
+      {
+        "id": "MWD5UTWJR9QXV",
+        "name": "文字",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD5V8U66V3V4",
+            "name": "标题",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464561022,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "BIAOTI",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5V98PHQ70D",
+            "name": "关键词",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464561545,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "GUANJIANCI",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794464541667,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "WENZI",
+        "password": "",
+        "passwordTips": ""
+      },
+      {
+        "id": "MWD5UTWLCLLM4",
+        "name": "图表",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD5V9N80RYBH",
+            "name": "柱状图",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464562068,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "ZHUZHUANGTU",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5VA1NLFHIZ",
+            "name": "折线图",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464562587,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "ZHEXIANTU",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5VAFXIZUO6",
+            "name": "饼图",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464563101,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "BINGTU",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794464541669,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "TUBIAO",
+        "password": "",
+        "passwordTips": ""
+      },
+      {
+        "id": "MWD5UTWNYOUCK",
+        "name": "视频",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD5VAU6ENYJN",
+            "name": "通屏（全屏）",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464563614,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "TONGPING（QUANPING）",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD5VBMMQXIHY",
+            "name": "边框",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794464564638,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "BIANKUANG",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794464541671,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "SHIPIN",
+        "password": "",
+        "passwordTips": ""
+      }
+    ],
+    "modificationTime": 1794464541660,
+    "tags": [],
+    "extendTags": [],
+    "pinyin": "QICHESUCAI｜MEILEI3FEN｜2026-11-12",
+    "password": "",
+    "passwordTips": ""
+  },
+  {
+    "id": "MWD9JZRAY17TD",
+    "name": "动效图",
+    "description": "透明动效、GIF预览、连贯动效参考及完整工程。参考片为非商业许可，工程依赖单独标记。",
+    "children": [
+      {
+        "id": "MWD9JZRATL0WY",
+        "name": "4K60帧透明动效",
+        "description": "",
+        "children": [],
+        "modificationTime": 1794470754510,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "4K60ZHENTOUMINGDONGXIAO",
+        "password": "",
+        "passwordTips": ""
+      },
+      {
+        "id": "MWD9JZRB1V2C7",
+        "name": "来源与工程",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD9JZRE7N8FZ",
+            "name": "未采用",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794470754511,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "WEICAIYONG",
+            "password": "",
+            "passwordTips": ""
+          },
+          {
+            "id": "MWD9JZRBRH7ER",
+            "name": "node_modules",
+            "description": "",
+            "children": [
+              {
+                "id": "MWD9JZRBOLYGA",
+                "name": "@lottiefiles",
+                "description": "",
+                "children": [
+                  {
+                    "id": "MWD9JZRB9Y0W6",
+                    "name": "dotlottie-web",
+                    "description": "",
+                    "children": [
+                      {
+                        "id": "MWD9JZRCT81UN",
+                        "name": "dist",
+                        "description": "",
+                        "children": [
+                          {
+                            "id": "MWD9JZRCST05H",
+                            "name": "webgl",
+                            "description": "",
+                            "children": [],
+                            "modificationTime": 1794470754511,
+                            "tags": [],
+                            "extendTags": [],
+                            "pinyin": "webgl",
+                            "password": "",
+                            "passwordTips": ""
+                          },
+                          {
+                            "id": "MWD9JZRCB9HSD",
+                            "name": "webgpu",
+                            "description": "",
+                            "children": [],
+                            "modificationTime": 1794470754511,
+                            "tags": [],
+                            "extendTags": [],
+                            "pinyin": "webgpu",
+                            "password": "",
+                            "passwordTips": ""
+                          }
+                        ],
+                        "modificationTime": 1794470754510,
+                        "tags": [],
+                        "extendTags": [],
+                        "pinyin": "dist",
+                        "password": "",
+                        "passwordTips": ""
+                      }
+                    ],
+                    "modificationTime": 1794470754510,
+                    "tags": [],
+                    "extendTags": [],
+                    "pinyin": "dotlottie-web",
+                    "password": "",
+                    "passwordTips": ""
+                  }
+                ],
+                "modificationTime": 1794470754510,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "@lottiefiles",
+                "password": "",
+                "passwordTips": ""
+              },
+              {
+                "id": "MWD9JZRDAGIMQ",
+                "name": "@napi-rs",
+                "description": "",
+                "children": [
+                  {
+                    "id": "MWD9JZRDEW9JR",
+                    "name": "canvas",
+                    "description": "",
+                    "children": [],
+                    "modificationTime": 1794470754511,
+                    "tags": [],
+                    "extendTags": [],
+                    "pinyin": "canvas",
+                    "password": "",
+                    "passwordTips": ""
+                  },
+                  {
+                    "id": "MWD9JZRD81T68",
+                    "name": "canvas-darwin-arm64",
+                    "description": "",
+                    "children": [],
+                    "modificationTime": 1794470754511,
+                    "tags": [],
+                    "extendTags": [],
+                    "pinyin": "canvas-darwin-arm64",
+                    "password": "",
+                    "passwordTips": ""
+                  }
+                ],
+                "modificationTime": 1794470754511,
+                "tags": [],
+                "extendTags": [],
+                "pinyin": "@napi-rs",
+                "password": "",
+                "passwordTips": ""
+              }
+            ],
+            "modificationTime": 1794470754510,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "node_modules",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794470754510,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "LAIYUANYUGONGCHENG",
+        "password": "",
+        "passwordTips": ""
+      },
+      {
+        "id": "MWD9JZREVMAV2",
+        "name": "连贯动效参考-10例",
+        "description": "",
+        "children": [
+          {
+            "id": "MWD9JZREUTOA1",
+            "name": "来源与说明",
+            "description": "",
+            "children": [],
+            "modificationTime": 1794470754511,
+            "tags": [],
+            "extendTags": [],
+            "pinyin": "LAIYUANYUSHUOMING",
+            "password": "",
+            "passwordTips": ""
+          }
+        ],
+        "modificationTime": 1794470754511,
+        "tags": [],
+        "extendTags": [],
+        "pinyin": "LIANGUANDONGXIAOCANKAO-10LI",
+        "password": "",
+        "passwordTips": ""
+      }
+    ],
+    "modificationTime": 1794470754507,
+    "tags": [],
+    "extendTags": [],
+    "pinyin": "DONGXIAOTU",
+    "password": "",
+    "passwordTips": ""
+  }
+]

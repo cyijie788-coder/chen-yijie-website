@@ -1,0 +1,17 @@
+{
+  "name": "07_注意警示",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/07_注意警示.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 180,
+  "duration": 3,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 1,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 6313030,
+  "elapsedSeconds": 2.767
+}

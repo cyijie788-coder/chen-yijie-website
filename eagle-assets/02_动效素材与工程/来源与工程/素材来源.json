@@ -1,0 +1,272 @@
+[
+  {
+    "name": "01_汽车行驶",
+    "page": "https://lottiefiles.com/free-animation/driving-car-Ddw6lvOiyX",
+    "author": "Umsatz GmbH",
+    "use": "汽车话题开场、日常驾驶",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/01_汽车行驶.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/caaa687a-1165-11ee-b90a-ab3bc458dd9d/EwomYW0ngN.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 36,
+      "duration_ms": 2570
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/01_汽车行驶.json",
+      "url": "https://assets-v2.lottiefiles.com/a/caaa687a-1165-11ee-b90a-ab3bc458dd9d/BaU3GVyT6X.json",
+      "width": 500,
+      "height": 500,
+      "fps": 25,
+      "ip": 0,
+      "op": 64,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "02_高速公路",
+    "page": "https://lottiefiles.com/free-animation/driving-on-the-highway-l4Ngxesjep",
+    "author": "Five dimension studio",
+    "use": "长途自驾、高速行驶",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/02_高速公路.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/6c561cc6-1177-11ee-9ebd-d39a3dcdce4b/RVgh9T8cMm.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 123,
+      "duration_ms": 8780
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/02_高速公路.json",
+      "url": "https://assets-v2.lottiefiles.com/a/6c561cc6-1177-11ee-9ebd-d39a3dcdce4b/gDkiTX7ppo.json",
+      "width": 500.0,
+      "height": 500.0,
+      "fps": 30.0,
+      "ip": 0.0,
+      "op": 220.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "03_速度仪表",
+    "page": "https://lottiefiles.com/free-animation/speedometer-3lQ5xtRfX7",
+    "author": "Emre Altintas",
+    "use": "性能、速度、加速话题",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/03_速度仪表.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/0486ad1c-1164-11ee-9e64-a3574e63c28c/Ig8N8o0avE.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 360,
+      "duration_ms": 5990
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/03_速度仪表.json",
+      "url": "https://assets-v2.lottiefiles.com/a/0486ad1c-1164-11ee-9e64-a3574e63c28c/Ggt1l3WfbO.json",
+      "width": 400,
+      "height": 400,
+      "fps": 50,
+      "ip": 25,
+      "op": 175,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "04_充电加载",
+    "page": "https://lottiefiles.com/free-animation/charging-vqISqBg5qY",
+    "author": "TheJohn",
+    "use": "充电等待、能量加载、进度提醒",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/04_充电加载.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/0dc3afb6-1154-11ee-92ed-0bce79866d65/Jaojbw97gA.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 95,
+      "duration_ms": 3160
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/04_充电加载.json",
+      "url": "https://assets-v2.lottiefiles.com/a/0dc3afb6-1154-11ee-92ed-0bce79866d65/ICqLjyaSpw.json",
+      "width": 375.0,
+      "height": 375.0,
+      "fps": 30.0,
+      "ip": 0.0,
+      "op": 79.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "05_齿轮运转",
+    "page": "https://lottiefiles.com/free-animation/gear-how-it-works-1nVhDg5eg5",
+    "author": "Sergey Designer",
+    "use": "机械结构、传动、技术解释",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/05_齿轮运转.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/7ec1cdda-1166-11ee-a15b-574f4a34a619/MiCnfXf7zQ.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 85,
+      "duration_ms": 6070
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/05_齿轮运转.json",
+      "url": "https://assets-v2.lottiefiles.com/a/7ec1cdda-1166-11ee-a15b-574f4a34a619/9GaDpiIQz4.json",
+      "width": 100.0,
+      "height": 97.0,
+      "fps": 25.0,
+      "ip": 0.0,
+      "op": 151.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "06_维修扳手",
+    "page": "https://lottiefiles.com/free-animation/tool-DLM0MHUQZT",
+    "author": "Sanjib Paul",
+    "use": "维修、保养、工具话题",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/06_维修扳手.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/969efe72-24b3-11ee-b218-f35bc8a23b35/0rx8CtNzrX.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 65,
+      "duration_ms": 3080
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/06_维修扳手.json",
+      "url": "https://assets-v2.lottiefiles.com/a/969efe72-24b3-11ee-b218-f35bc8a23b35/M6pMpxLRCQ.json",
+      "width": 200,
+      "height": 200,
+      "fps": 30,
+      "ip": 0,
+      "op": 77.99999982118607,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "07_注意警示",
+    "page": "https://lottiefiles.com/free-animation/warning-LArZv8rRiX",
+    "author": "LottieFiles",
+    "use": "知识提醒、用车注意事项",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/07_注意警示.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/fdfb319a-1152-11ee-b09b-734d71c5ad60/t8xlLMS6Dd.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 58,
+      "duration_ms": 5800
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/07_注意警示.json",
+      "url": "https://assets-v2.lottiefiles.com/a/fdfb319a-1152-11ee-b09b-734d71c5ad60/RxQ6HemnH6.json",
+      "width": 500.0,
+      "height": 500.0,
+      "fps": 48.0,
+      "ip": 0.0,
+      "op": 144.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "08_方向箭头",
+    "page": "https://lottiefiles.com/free-animation/arrows-dal9bTuokv",
+    "author": "Matthias Müller",
+    "use": "强调重点、指向细节",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/08_方向箭头.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/9ca1180c-116f-11ee-8ea6-dbc8a89d5cfb/ee8lZUap9g.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 31,
+      "duration_ms": 2210
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/08_方向箭头.json",
+      "url": "https://assets-v2.lottiefiles.com/a/9ca1180c-116f-11ee-8ea6-dbc8a89d5cfb/Dq8tjESkeB.json",
+      "width": 626.0,
+      "height": 626.0,
+      "fps": 25.0,
+      "ip": 0.0,
+      "op": 56.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "09_地图定位",
+    "page": "https://lottiefiles.com/free-animation/location-pin-QH4ubW3bMo",
+    "author": "LottieFiles",
+    "use": "路线、目的地、探店介绍",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/09_地图定位.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/33adfd0a-1152-11ee-bf4c-cf4f5408cb33/lhzvbptSDk.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 77,
+      "duration_ms": 7700
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/09_地图定位.json",
+      "url": "https://assets-v2.lottiefiles.com/a/33adfd0a-1152-11ee-bf4c-cf4f5408cb33/6VkFBp18ma.json",
+      "width": 500.0,
+      "height": 500.0,
+      "fps": 48.0,
+      "ip": 0.0,
+      "op": 192.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  },
+  {
+    "name": "10_闪光高亮",
+    "page": "https://lottiefiles.com/free-animation/sparkles-DQkIIriBZO",
+    "author": "Anne Tan",
+    "use": "亮点、车漆、重点强调",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "license_url": "https://lottiefiles.com/page/license",
+    "gif": {
+      "path": "/Users/mima1234/Desktop/动效图/10_闪光高亮.gif",
+      "url": "https://assets-v2.lottiefiles.com/a/d11495f2-1177-11ee-b956-933b86b055db/6Z6kM40avk.gif",
+      "width": 640,
+      "height": 640,
+      "frames": 68,
+      "duration_ms": 4870
+    },
+    "vector": {
+      "path": "/Users/mima1234/Desktop/动效图/来源与工程/10_闪光高亮.json",
+      "url": "https://assets-v2.lottiefiles.com/a/d11495f2-1177-11ee-b956-933b86b055db/0axPcLcMrM.json",
+      "width": 100.0,
+      "height": 70.0,
+      "fps": 60.0,
+      "ip": 0.0,
+      "op": 121.0,
+      "raster_assets": 0
+    },
+    "status": "ok"
+  }
+]

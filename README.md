@@ -4,6 +4,8 @@
 
 在线访问：https://cyijie788-coder.github.io/chen-yijie-website/
 
+Eagle 全库分类归档：[eagle-assets](eagle-assets/README.md)（2026-11-12，257 个原文件，含旧藏、汽车素材、动效和工程；大文件通过 Git LFS 下载）。
+
 ## 文件与功能
 
 - `index.html`、`auto.css`、`auto.js`：汽车主页、响应式样式、选题筛选与拍摄提纲弹窗。

@@ -1,0 +1,17 @@
+{
+  "name": "04_充电加载",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/04_充电加载.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 158,
+  "duration": 2.6333333333333333,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 0,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 11132658,
+  "elapsedSeconds": 3.36
+}

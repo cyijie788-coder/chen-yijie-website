@@ -1,0 +1,17 @@
+{
+  "name": "10_闪光高亮",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/10_闪光高亮.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 121,
+  "duration": 2.0166666666666666,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 0,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 9829287,
+  "elapsedSeconds": 3.094
+}

@@ -1,0 +1,17 @@
+{
+  "name": "08_方向箭头",
+  "path": "/Users/mima1234/Desktop/动效图/4K60帧透明动效/08_方向箭头.mov",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 134,
+  "duration": 2.2333333333333334,
+  "rendered_from": "original vector JSON, not resized GIF",
+  "removedWhiteBackgroundLayers": 0,
+  "alpha": {
+    "min": 0,
+    "max": 255
+  },
+  "bytes": 14673302,
+  "elapsedSeconds": 3.494
+}
