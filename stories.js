@@ -158,5 +158,86 @@ const briefs = {
         "url": "https://www.lamborghini.com/en-en/models/revuelto-models/revuelto"
       }
     ]
+  },
+  "gt3": {
+    "title": "911 GT3：不靠涡轮，它在坚持什么？",
+    "kind": "performance",
+    "label": "PORSCHE / 911 GT3",
+    "deck": "从 4.0 升自然吸气水平对置六缸，聊到尾翼与 Touring 的不同表达。",
+    "image": "assets/cars/gt3.jpg",
+    "intro": "车型笔记 / 视频选题筹备中",
+    "facts": [
+      "Porsche 在 2024 年 10 月发布的 911 GT3，搭载 4.0 升自然吸气水平对置六缸发动机。这里的“水平对置六缸”和 V6 是不同的气缸排列形式。",
+      "这一代发布时同时提供带固定尾翼的 GT3 与 Touring 套件版本。Touring 不采用固定尾翼，而是利用可伸缩后扰流板等设计维持空气动力学平衡。",
+      "这篇想讲的是同一车型如何表达不同气质：一个把赛道取向写在外形上，另一个保留更克制的轮廓。不是用外观判断谁一定更快。"
+    ],
+    "shots": [
+      "并列展示 2024 年发布的 GT3 与 Touring 官方外观资料。",
+      "用简图解释水平对置六缸，不把它误写成 V6。",
+      "对照固定尾翼与可伸缩后扰流板。",
+      "结尾问观众：你会选更张扬的外形，还是更克制的轮廓？"
+    ],
+    "script": "超跑都在加电机，涡轮也早就不稀奇了。但你看这台 GT3，话题还是能回到自然吸气。更有意思的是，同样一台车，带尾翼和不带固定尾翼，看起来就像两种性格。",
+    "note": "依据 Porsche 2024 年发布资料，不混用 GT3 RS、其他年款或后续衍生车型。配图为带 Weissach 套件的 GT3。",
+    "sources": [
+      {
+        "title": "Porsche · 2024 年 911 GT3 与 Touring 发布资料",
+        "url": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-911-gt3-double-premiere-37595.html"
+      }
+    ]
+  },
+  "gtr": {
+    "title": "GT-R R35：少了 Skyline，故事怎么接着讲？",
+    "kind": "performance",
+    "label": "NISSAN / GT-R R35",
+    "deck": "从 2007 年的 R35 出发，认识名字、V6 双涡轮与传动布局。",
+    "image": "assets/cars/gtr.jpg",
+    "intro": "车型笔记 / 视频选题筹备中",
+    "facts": [
+      "Nissan 的 Heritage Collection 记录：R35 于 2007 年以“NISSAN GT-R”之名发布，不再使用 Skyline 作为车型名称的一部分。",
+      "该馆藏早期 R35 采用 VR38DETT 双涡轮 V6 发动机，双离合变速箱位于后部，结合四轮驱动系统。这是理解它的机械布局的入口。",
+      "讲 R35，可以先分清它与 Skyline GT-R 的命名关系，再讨论技术。不同年款与改装案例的数据，不能套用到整条车系。"
+    ],
+    "shots": [
+      "展示 Nissan Heritage 早期 R35 图片与 2007 年时间节点。",
+      "把 Skyline GT-R 与 NISSAN GT-R 的名称放在同一张时间线上。",
+      "用发动机、传动轴与后置变速箱位置示意解释结构。",
+      "收尾：记住外号之前，先认识这台车本来的样子。"
+    ],
+    "script": "聊 GT-R，你可能已经听过不少外号。但来到 R35，它连名字都做了一次改变：不再叫 Skyline GT-R，而是 NISSAN GT-R。今天从这个变化说起，再看看它把什么藏进了车身里。",
+    "note": "资料与配图为 Nissan Heritage 收藏的早期 2007 年 R35，不代表后期 NISMO 或改装车。",
+    "sources": [
+      {
+        "title": "Nissan Heritage · NISSAN GT-R（2007: R35）",
+        "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/418_nissan_gt-r.html"
+      }
+    ]
+  },
+  "lfa": {
+    "title": "LFA：一台车，为什么会让人记住它的声音？",
+    "kind": "performance",
+    "label": "LEXUS / LFA",
+    "deck": "4.8 升 V10、碳纤维车身与 500 台计划，认识这台日系超跑。",
+    "image": "assets/cars/lfa-large.jpg",
+    "intro": "车型笔记 / 视频选题筹备中",
+    "facts": [
+      "Lexus 于 2009 年正式发布 LFA。当时的官方资料说明，这是一款双座超跑，计划于 2010 年末投入生产，全球计划生产与销售 500 台。",
+      "发布资料列出其 4.8 升 V10、前置发动机后轮驱动布局，以及用于座舱结构的碳纤维增强塑料。机械、材料与声音共同构成这个选题的线索。",
+      "“好听”是个人审美，本页不会给声浪排客观名次。制作视频时，可以把真实音频与自己的表达分开，先交代音频来源与对应车型。"
+    ],
+    "shots": [
+      "车辆全景与 LFA 标识开场，确认车型。",
+      "用官方发布资料串起 2009 年发布与 2010 年末投产计划。",
+      "展示 V10 与车身材料的简图，少堆参数。",
+      "若取得可用音频，再加入原声段落并注明来源。"
+    ],
+    "script": "有些车，你先记住它长什么样；有些车，别人还没说车名，你就想起了它的声音。LFA 的故事里，V10 是一个入口，但如果只讲声浪，你可能还漏掉了它在车身材料上做的事。",
+    "note": "本文聚焦最初发布的燃油 LFA，不讨论后续概念车；配图为 Silver Arrow Cars 展示的 2012 年车辆，图片并非本人实拍。",
+    "sources": [
+      {
+        "title": "Lexus / Toyota · 2009 年 LFA 官方发布资料",
+        "url": "https://global.toyota/en/detail/308263"
+      }
+    ]
   }
 };
