@@ -46,21 +46,66 @@
   show(0, false); renderPause();
   reduced.addEventListener('change', () => { if (reduced.matches) { auto = false; renderPause(); document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible')); } });
   const halo = document.querySelector('.cursor-halo');
-  let frame;
+  const effects = document.createElement('div');
+  effects.className = 'cursor-effects'; effects.setAttribute('aria-hidden', 'true');
+  document.body.append(effects); effects.append(halo);
+  const trail = Array.from({length: 9}, (_, i) => {
+    const dot = document.createElement('i'); dot.className = 'cursor-trail';
+    dot.style.setProperty('--tail-index', i); effects.append(dot);
+    return {el: dot, x: 0, y: 0};
+  });
+  let pointerFrame = 0, pointerActive = false, lastMove = 0, x = 0, y = 0, ringX = 0, ringY = 0;
+  const pointerAllowed = event => finePointer.matches && !reduced.matches && event.pointerType !== 'touch';
+  function placeEffects() {
+    const openDialog = document.querySelector('dialog[open]');
+    const host = openDialog || document.body;
+    if (effects.parentElement !== host) host.append(effects);
+  }
+  function animatePointer(time) {
+    pointerFrame = 0;
+    if (!pointerActive || !finePointer.matches || reduced.matches) return;
+    ringX += (x - ringX) * .24; ringY += (y - ringY) * .24;
+    halo.style.transform = `translate3d(${ringX}px,${ringY}px,0)`;
+    let leadX = x, leadY = y;
+    trail.forEach((dot, i) => {
+      dot.x += (leadX - dot.x) * .38; dot.y += (leadY - dot.y) * .38;
+      dot.el.style.transform = `translate3d(${dot.x}px,${dot.y}px,0) scale(${1 - i * .075})`;
+      leadX = dot.x; leadY = dot.y;
+    });
+    if (time - lastMove < 650) pointerFrame = requestAnimationFrame(animatePointer);
+    else effects.classList.remove('moving');
+  }
   document.addEventListener('pointermove', event => {
-    if (!finePointer.matches || reduced.matches || event.pointerType === 'touch') return;
-    cancelAnimationFrame(frame);
-    const x = event.clientX, y = event.clientY;
-    frame = requestAnimationFrame(() => { halo.style.transform = `translate3d(${x}px,${y}px,0)`; halo.classList.add('active'); });
+    if (!pointerAllowed(event)) return;
+    placeEffects(); x = event.clientX; y = event.clientY; lastMove = performance.now();
+    if (!pointerActive) { ringX = x; ringY = y; trail.forEach(dot => { dot.x = x; dot.y = y; }); }
+    pointerActive = true; halo.classList.add('active'); effects.classList.add('moving');
+    halo.classList.toggle('is-hover', !!event.target.closest('a,button,summary,input,[tabindex="0"]'));
+    if (!pointerFrame) pointerFrame = requestAnimationFrame(animatePointer);
   }, {passive: true});
-  document.documentElement.addEventListener('pointerleave', () => halo.classList.remove('active'));
+  function hidePointer() { pointerActive = false; halo.classList.remove('active'); effects.classList.remove('moving'); cancelAnimationFrame(pointerFrame); pointerFrame = 0; }
+  document.documentElement.addEventListener('pointerleave', hidePointer);
+  window.addEventListener('blur', hidePointer);
+  reduced.addEventListener('change', hidePointer);
+  const bursts = [];
+  document.addEventListener('pointerdown', event => {
+    if (!pointerAllowed(event) || event.button !== 0) return;
+    placeEffects();
+    while (bursts.length >= 4) bursts.shift().remove();
+    const burst = document.createElement('span'); burst.className = 'cursor-burst';
+    burst.style.left = event.clientX + 'px'; burst.style.top = event.clientY + 'px';
+    for (let i = 0; i < 2; i++) { const ring = document.createElement('i'); ring.className = 'burst-ring'; ring.style.setProperty('--ring-index', i); burst.append(ring); }
+    for (let i = 0; i < 6; i++) { const spark = document.createElement('i'); spark.className = 'burst-spark'; const angle = i * Math.PI / 3; spark.style.setProperty('--sx', Math.cos(angle) * 44 + 'px'); spark.style.setProperty('--sy', Math.sin(angle) * 44 + 'px'); burst.append(spark); }
+    effects.append(burst); bursts.push(burst);
+    setTimeout(() => { burst.remove(); const i = bursts.indexOf(burst); if (i >= 0) bursts.splice(i, 1); }, 800);
+  }, {passive: true});
   document.querySelectorAll('.topic,.knowledge-grid button').forEach(card => {
     card.classList.add('interactive-card');
     card.addEventListener('pointermove', event => {
       if (!finePointer.matches || reduced.matches) return;
       const box = card.getBoundingClientRect(), x = event.clientX - box.left, y = event.clientY - box.top;
       card.style.setProperty('--mx', x + 'px'); card.style.setProperty('--my', y + 'px');
-      card.style.setProperty('--rx', ((.5 - y / box.height) * 3).toFixed(2) + 'deg'); card.style.setProperty('--ry', ((x / box.width - .5) * 3).toFixed(2) + 'deg');
+      card.style.setProperty('--rx', ((.5 - y / box.height) * 7).toFixed(2) + 'deg'); card.style.setProperty('--ry', ((x / box.width - .5) * 7).toFixed(2) + 'deg');
     }, {passive: true});
     card.addEventListener('pointerleave', () => { card.style.setProperty('--rx', '0deg'); card.style.setProperty('--ry', '0deg'); });
   });
