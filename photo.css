@@ -1,0 +1,44 @@
+/* Personal photo album: the original print, with a closer look on demand. */
+.photo-card{isolation:isolate;transition:transform .35s ease,box-shadow .35s ease;border-radius:5px;padding:9px;min-width:0;width:100%}
+.photo-open{position:relative;display:block;width:100%;padding:0;border:0;background:var(--bg);border-radius:2px;overflow:hidden;cursor:zoom-in;touch-action:pan-y pinch-zoom}
+.photo-open:focus-visible{outline-offset:3px}
+.photo-card .photo-open img{height:405px;filter:saturate(.9);transition:transform .65s ease,filter .4s ease;object-position:center 65%}
+.photo-open:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at var(--photo-x,50%) var(--photo-y,35%),#ffe9b022,transparent 60%);opacity:0;transition:opacity .3s}
+.photo-open-hint{position:absolute;bottom:14px;left:14px;right:14px;display:flex;align-items:center;justify-content:center;gap:9px;padding:9px 12px;background:#111b16ce;color:#fff7e9;backdrop-filter:blur(8px);border:1px solid #ffffff35;border-radius:3px;font-size:11px;letter-spacing:1px;pointer-events:none}
+.photo-open-hint>span{font-size:20px;line-height:1}
+.photo-caption{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 10px 12px}
+.photo-eyebrow{display:block;font:8px/1.6 monospace;letter-spacing:1.6px;color:var(--muted)}
+.photo-caption strong{display:block;font-size:13px;font-weight:500;margin-top:4px;letter-spacing:2px}
+.photo-count{font:10px monospace;color:var(--accent);white-space:nowrap}
+.photo-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:12px 6px 3px}
+.photo-arrow{display:grid;place-items:center;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);font-size:18px;padding:0;flex-shrink:0;transition:background .2s,border-color .2s}
+.photo-arrow:hover{background:var(--bg);border-color:var(--accent)}
+.photo-choices{display:flex;gap:8px}
+.photo-choices button{width:44px;height:48px;border:1px solid transparent;background:transparent;padding:3px;border-radius:3px;opacity:.55;transition:opacity .2s,border-color .2s}
+.photo-choices button[aria-pressed=true]{border-color:var(--accent);opacity:1}
+.photo-choices button:hover{opacity:1}
+.photo-card .photo-choices img{display:block;width:100%;height:100%;border-radius:1px;object-fit:cover;object-position:center 65%;filter:none}
+.photo-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#photo-viewer{width:min(860px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:20px;overflow:auto;background:var(--surface);overscroll-behavior:contain}
+.photo-viewer-top{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:14px}
+#photo-viewer h2{font-size:18px;letter-spacing:2px;margin:5px 0 0}
+.photo-stage{display:flex;align-items:center;justify-content:center;background:var(--bg);border-radius:4px;overflow:hidden;touch-action:pan-y pinch-zoom}
+.photo-stage img{display:block;width:100%;height:min(64dvh,680px);object-fit:contain}
+.photo-viewer-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:14px}
+.photo-viewer-bottom p{font-size:12px;color:var(--ink);text-align:center;margin:0;letter-spacing:1px}
+.photo-help{text-align:center;font-size:10px;color:var(--muted);margin:12px 0 0}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+  .photo-card:hover{transform:perspective(1000px) rotate(-1deg) rotateX(var(--photo-rx,0deg)) rotateY(var(--photo-ry,0deg)) translateY(-4px);box-shadow:0 20px 48px #0003}
+  .photo-open:hover img{transform:scale(1.035);filter:saturate(1)}
+  .photo-open:hover:after{opacity:1}
+}
+@media(max-width:700px){
+  .photo-card{max-width:420px;margin-inline:auto}
+  .photo-card .photo-open img{height:340px}
+  .photo-open-hint{font-size:10px}
+  #photo-viewer{padding:14px}
+  .photo-stage img{height:58dvh}
+  .photo-help{font-size:9px}
+}
+@media(max-width:360px){.photo-card .photo-open img{height:300px}.photo-controls{gap:5px;padding-inline:0}.photo-choices{gap:5px}}
+@media(prefers-reduced-motion:reduce){.photo-card,.photo-card:hover{transform:none}.photo-open img{transform:none!important}}
