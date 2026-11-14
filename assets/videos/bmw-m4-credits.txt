@@ -1,0 +1,44 @@
+第五版修订：删除21秒侧面短镜头、50.72秒5帧车头短镜头；全片排查并清理另外几处夹带的短镜头。保留7274帧、60fps、字幕时间与第四版音轨；声音流直接复制，校验一致。通过保留片段的自然播放速度微调补足原时长，不用静帧或循环填补。
+
+奕起聊车｜宝马M4 吸睛节奏第四版
+1920×1080，60fps，7274帧，2分01.23秒。原生4K实拍源文件，输出1080p。
+沿用第三版已选用的改装宝马M4镜头，以绿色、酸性黄绿色为主。
+
+修订：
+1. 正文口播相对第三版提速6%，FFmpeg atempo保持音调；原文未更改。原第三句的局部提速继续保留。
+2. 字幕、逐字入场、画面、动效、原有音效同步重排。片头约18.45秒逐字显现，不叠加底部字幕。
+3. 前30秒加入缓动推近、选择性的斜向擦切、重点字落点与划线；正常叙述阶段保持清晰阅读。
+4. 配乐相对第三版提高2dB后按人声避让，现成音效配合“代价”“你愿意吗”“都值”和驾驶舱转场。无音乐或音效生成器。
+5. 参数段约35.98—50.72秒，保持M4 PNG、机械结构连续动效和官方参数说明；0—100演示仍为实际3.5秒。
+6. 结尾3秒保持原播放速度、发动机渐远及画面淡出。
+7. “奕起聊车”按用户指示保持画布最左上角16,14px。
+
+图片例外：参数小车是1672×941的AI示意PNG，不是原生4K；片内显示约440像素宽，未放大冒充原生4K。实拍仍沿用已核对4K文件。
+数据为指定原厂M4 Competition Coupé M xDrive的官方参数，机械结构和加速动画为示意，非改装后实测。
+
+绿色改装M4影像：Cozzzy Media @cozzzy.media
+原片：https://www.youtube.com/watch?v=SZgr1hBbFDo
+作者要求：TikTok/Reels及其他社交媒体使用时标记 @cozzzy.media；YouTube说明开头放原片链接，并在片尾卡片链接原片。片内已有来源文字，实际发布时仍按平台添加标签/链接。
+
+其他改装M4影像：RoCars；Woyshnis Media
+https://www.youtube.com/watch?v=Qw-RBUvEcao
+https://www.youtube.com/watch?v=VCW9rQv37J4
+各来源公开转载或商业授权未统一核实。
+
+片头BGM：用户指定参考片段中分离的现有伴奏（非生成），曲名与单独转载授权未核实。
+参考：https://www.douyin.com/video/7706465859409038611
+正文配乐：Hitman — Kevin MacLeod (incompetech.com)，CC BY 4.0
+许可：https://creativecommons.org/licenses/by/4.0/
+来源：https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1300013
+处理：节选、EQ、音量避让、时间伸缩、淡入淡出。
+
+音效为Freesound现有CC0素材，MP3预览并非原始无损文件。
+fs_83915_cash-register-wav.mp3 | cognito perceptu | CC0 | https://freesound.org/people/cognito%20perceptu/sounds/83915/
+fs_166007_KeysJingling-wav.mp3 | voiceofgup | CC0 | https://freesound.org/people/voiceofgup/sounds/166007/
+fs_478197_Click_1-wav.mp3 | JonnyRuss01 | CC0 | https://freesound.org/people/JonnyRuss01/sounds/478197/
+fs_789840_Whoosh-Short.mp3 | FartCTO | CC0 | https://freesound.org/people/FartCTO/sounds/789840/
+fs_696599_ratchet_wrench-mp3.mp3 | houbi-game | CC0 | https://freesound.org/people/houbi-game/sounds/696599/
+fs_536410_Windowcleaner-Spray-02.mp3 | Rudmer_Rotteveel | CC0 | https://freesound.org/people/Rudmer_Rotteveel/sounds/536410/
+fs_336495_LowHit_01-wav.mp3 | Faulkin | CC0 | https://freesound.org/people/Faulkin/sounds/336495/
+
+M4发动机排气声沿用前版ORGcars实录素材；完整来源记录见工程sources.json与原版音频来源清单。

@@ -57,7 +57,7 @@ const briefs = {
     "label": "AUDI / RS 7 SPORTBACK",
     "deck": "从轿跑轮廓与性能细节之间的反差讲起。",
     "image": "assets/cars/rs7.jpg",
-    "intro": "内容研究 / 原创选题计划 · 尚未制作成视频",
+    "intro": "车型笔记 / RS7 讲解视频已上线，可在视频作品区观看",
     "facts": [
       "“西装暴徒”是车迷式的形容，本页将它作为审美与性格的讨论入口，并非官方车型名称。",
       "Audi 的 2023 年 RS 7 资料介绍了外扩轮拱、双侧椭圆尾管和 4.0 TFSI 双涡轮 V8。文中标准版与 performance 版的输出不同，介绍时需要区分版本。"
