@@ -192,7 +192,7 @@ const briefs = {
     "label": "NISSAN / GT-R R35",
     "deck": "从 2007 年的 R35 出发，认识名字、V6 双涡轮与传动布局。",
     "image": "assets/cars/gtr.jpg",
-    "intro": "车型笔记 / 视频选题筹备中",
+    "intro": "车型笔记 / GT-R 讲解视频已上线，可在视频作品区观看",
     "facts": [
       "Nissan 的 Heritage Collection 记录：R35 于 2007 年以“NISSAN GT-R”之名发布，不再使用 Skyline 作为车型名称的一部分。",
       "该馆藏早期 R35 采用 VR38DETT 双涡轮 V6 发动机，双离合变速箱位于后部，结合四轮驱动系统。这是理解它的机械布局的入口。",

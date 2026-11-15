@@ -9,7 +9,12 @@
       item.tabIndex = active ? 0 : -1;
       document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
     });
-    if (focus) tab.focus();
+    const video = document.getElementById(tab.getAttribute('aria-controls')).querySelector('video');
+    if (video.preload === 'none') { video.preload = 'metadata'; video.load(); }
+    if (focus) {
+      tab.focus({preventScroll: true});
+      tab.scrollIntoView({block: 'nearest', inline: 'nearest', behavior: 'instant'});
+    }
   }
   tabs.forEach((tab, i) => {
     tab.addEventListener('click', () => selectFilm(tab));
@@ -21,20 +26,24 @@
     });
   });
   videos.forEach(video => video.addEventListener('play', () => videos.forEach(other => { if (other !== video) other.pause(); })));
-  const m4 = document.querySelector('#m4-video');
-  let chapterRequest = null;
-  function seekChapter() {
-    if (!chapterRequest || m4.readyState < 1) return;
-    m4.currentTime = Math.min(chapterRequest.time, m4.duration);
-    document.querySelector('#film-status').textContent = `已跳转至 ${chapterRequest.label}，可按播放继续观看。`;
-    chapterRequest = null;
-  }
-  document.querySelectorAll('[data-seek]').forEach(button => button.addEventListener('click', () => {
-    chapterRequest = {time: Number(button.dataset.seek), label: button.textContent};
-    if (m4.readyState >= 1) seekChapter();
-    else { document.querySelector('#film-status').textContent = '正在载入视频章节…'; m4.load(); }
-  }));
-  m4.addEventListener('loadedmetadata', seekChapter);
+  document.querySelectorAll('.video-work').forEach(panel => {
+    const video = panel.querySelector('video');
+    const status = panel.querySelector('[data-chapter-status]');
+    if (!status) return;
+    let chapterRequest = null;
+    function seekChapter() {
+      if (!chapterRequest || video.readyState < 1 || !Number.isFinite(video.duration)) return;
+      video.currentTime = Math.min(chapterRequest.time, video.duration);
+      status.textContent = `已跳转至 ${chapterRequest.label}，可按播放继续观看。`;
+      chapterRequest = null;
+    }
+    panel.querySelectorAll('[data-seek]').forEach(button => button.addEventListener('click', () => {
+      chapterRequest = {time: Number(button.dataset.seek), label: button.textContent};
+      if (video.readyState >= 1) seekChapter();
+      else { status.textContent = '正在载入视频章节…'; video.load(); }
+    }));
+    video.addEventListener('loadedmetadata', seekChapter);
+  });
   videos.forEach(video => video.addEventListener('error', () => {
     const message = document.createElement('p');
     message.className = 'film-status';

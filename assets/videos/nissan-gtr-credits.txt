@@ -1,0 +1,41 @@
+奕起聊车 · 日产 GT-R 网页作品
+
+收录版本：连读修正版，2026-11-15 导出，1920 × 1080，60 fps，约 3 分 02 秒。
+网页版本对画面重新编码以适合传输，原音轨直接复制；原始成片留存在桌面。
+封面为用户已有的 AI 视觉创作，不代表实拍。车型画面、讲解中的主观评价及机械示意需分别理解。
+
+以下来源信息摘自随附工程记录，不代表已取得各素材公开或商业发布授权。
+
+画面来源
+1. Woyshnis Media — Flame Spitting R35 GTR in [4K]
+https://www.youtube.com/watch?v=vlDOjTaaEdA
+作者说明社交媒体使用须标注 @woyshnis.media；用于 YouTube 还要求正文靠前放原片链接及片尾卡。
+镜头中的宽体车为改装车；有关原厂尾翼、内饰和发动机的段落切至原厂车辆画面。
+
+2. IS Enform ENG — 2025 Nissan GT-R R35 Premium / In-Depth Walkaround Exterior & Interior
+https://www.youtube.com/watch?v=se5IBBbgxEM
+作者说明保留版权并要求不要复制、转载。本次未取得另行使用许可。
+
+3. Misha Charoudin — THE BEST Nissan R35 GT-R I've Driven on Nürburgring!
+https://www.youtube.com/watch?v=TG8lWFISXK8
+用于赛道驾驶画面，未取得公开再使用许可。画面是赛道驾驶，不是新手安全能力或车辆性能实测的证明。
+
+配乐来源
+宝马 M4 开头伴奏：工程 out/m4-green-v4/bgm-bed.wav。
+原参考：https://www.douyin.com/video/7706465859409038611
+音乐名称和单独发布授权未核实。
+
+ATLXS – PASSO BEM SOLTO (SLOWED)
+https://www.youtube.com/watch?v=KgayxOF4Y7E
+使用现有录音，未取得公开同步配乐许可。
+
+音效来源（均为 CC0 / Freesound MP3 预览，非原始无损文件）
+fs_789840_Whoosh-Short.mp3 / FartCTO / CC0
+https://freesound.org/people/FartCTO/sounds/789840/
+fs_478197_Click_1-wav.mp3 / JonnyRuss01 / CC0
+https://freesound.org/people/JonnyRuss01/sounds/478197/
+fs_83915_cash-register-wav.mp3 / cognito perceptu / CC0
+https://freesound.org/people/cognito%20perceptu/sounds/83915/
+fs_71853_record_scratch-wav.mp3 / ludvique / CC0
+https://freesound.org/people/ludvique/sounds/71853/
+
