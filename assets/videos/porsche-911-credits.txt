@@ -1,0 +1,63 @@
+网站收录：保时捷911精修第四版，8897帧，1920×1080，60fps，约2:28。网页版本压缩画面、保留原音轨；封面为用户已有的AI视觉创作。
+
+以下为随附工程的来源与历史版本记录，早期版本时长不代表当前成片。记录中“仅本地、未发布”描述的是制作交付当时的状态。
+
+奕起聊车 · 保时捷911 · 素材与署名
+
+视频：1920×1080，60 fps，8807帧，146.783秒。
+口播：143.770秒自然语速源录音，保留原台词及克隆音色，未再次加速。
+风格：延续M4参考片的横屏实拍、黄红重点字、中英字幕、深绿结构动效；本版改为Tokyo Drift配乐。
+
+实拍来源：
+RunCorner Films — Porsche 911 Carrera GTS (992.2) // 4K Cinematic
+https://www.youtube.com/watch?v=g0J3uCfJ0L8
+RunCorner Films — 911夜景影片
+https://www.youtube.com/watch?v=qHfWnV6-Cx8
+The Wheel Network — 2025 Porsche 911 Carrera | Lugano Blue | Track Driving, Interior, Exterior [4K]
+https://www.youtube.com/watch?v=EcPla0MwNAU
+
+历史图片：Porsche AG，60 years of the Porsche 911
+https://newsroom.porsche.com/en/press-kits/911-s-t/60-years-of-the-Porsche-911.html
+
+真实音效：
+fs_83915_cash-register-wav.mp3 — cognito perceptu — CC0 — https://freesound.org/people/cognito%20perceptu/sounds/83915/
+fs_166007_KeysJingling-wav.mp3 — voiceofgup — CC0 — https://freesound.org/people/voiceofgup/sounds/166007/
+fs_478197_Click_1-wav.mp3 — JonnyRuss01 — CC0 — https://freesound.org/people/JonnyRuss01/sounds/478197/
+fs_789840_Whoosh-Short.mp3 — FartCTO — CC0 — https://freesound.org/people/FartCTO/sounds/789840/
+fs_696599_ratchet_wrench-mp3.mp3 — houbi-game — CC0 — https://freesound.org/people/houbi-game/sounds/696599/
+fs_336495_LowHit_01-wav.mp3 — Faulkin — CC0 — https://freesound.org/people/Faulkin/sounds/336495/
+fs_878248_UI-Hover-Micro-Swish.mp3 — Qvantor — CC0 — https://freesound.org/people/Qvantor/sounds/878248/
+音效文件为Freesound MP3预览，并非原始无损文件；本次复用项目已记录的CC0素材，没有生成音效或音乐。
+
+分辨率记录：
+实拍原文件包含3840×2160、3840×1608、3840×1634；后两者属于3840像素宽的宽银幕源文件，高度未达到本工程严格2160像素要求。清理边角水印后的裁切区包括3360×1890、2858×1608、2904×1634，导出1920×1080；不把裁切/缩放结果标为原生4K。沙漠PNG为1672×941，亦为已记录的分辨率例外。
+
+发布状态：只制作本地视频，未发布。实拍素材、官方新闻图片及Tokyo Drift音乐的公开转载许可没有全部核实。以上署名不是取得转载许可的证明。
+
+V2新增实拍：
+Khaled AlNeyadi - KN Media — Dear Bruce ft. Porsche GT3RS l 4k
+https://www.youtube.com/watch?v=02uaHRmrSqA
+原文件3840×2160 / 30fps，按片段选用黑色GT3 RS，裁切3360×1890以去除原片底部英文叙述字幕。
+Brennan Wright — The Perfect GT3RS Cinematic |4K|
+https://www.youtube.com/watch?v=vA3b825iA0U
+原文件3840×1634 / 24000/1001fps，银灰GT3 RS红色轮毂，裁切2904×1634适配横屏。属于原生4K宽银幕，不满足严格2160像素高度的源素材要求；没有把放大结果标为原生4K。
+通勤段涉及Carrera的台词仍对应Carrera/Carrera GTS素材；GT3 RS用于911家族外观与情绪展示，不作为同一辆车连续行驶的记录。
+
+V2配乐：
+Teriyaki Boyz — Tokyo Drift (Fast & Furious)
+https://www.youtube.com/watch?v=SXnhFgB0Kek
+YouTube官方Topic录音，Provided to YouTube by Universal Music Group；℗2006 Universal Pictures。
+本地预览使用原录音经过htdemucs人声分离得到伴奏，进行不变调小幅节奏调整（约±2.4%）、12处口播锚点对齐、均衡、人声避让和淡入淡出；未生成音乐。最终相对第一版V2预览混音的BGM增加2dB。音乐正式转载/公开发布许可未取得，以上署名不等于授权。旧版Hitman及旧开场伴奏未在V2使用。
+
+沙漠插图：
+使用内置image_gen生成透明PNG，实际1672×941（RGBA），作为480×270以内的小插图。请求原生4K，但工具实际输出未达4K；保留此像素例外，不升采样冒充4K。
+生成意图：沙漠无人区、金色沙丘、微小独行旅人、少量岩石，写实电影感透明剪贴插图，无文字/边框/标识/汽车。
+项目文件：public/porsche-911-v2/desert-wilderness.png。
+
+本版仅保存在本地，未发布。
+
+
+V4追加说明
+新增11处换镜中9处使用原生3840×2160源，2处继续使用已记录的3840×1634银色GT3 RS宽银幕素材。
+声浪沿用The Wheel Network同一辆Carrera的实录，纯声浪使用源20.7–23.2秒，与画面保持1倍速同步，不合成、不循环。
+所有原素材、旧成片保留；镜头对应关系及真实裁切范围见《交付校验.json》。

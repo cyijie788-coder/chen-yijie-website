@@ -1,7 +1,7 @@
 (() => {
   const tabs = [...document.querySelectorAll('.film-tabs [role="tab"]')];
   const videos = [...document.querySelectorAll('.video-work video')];
-  function selectFilm(tab, focus = false) {
+  function selectFilm(tab, focus = false, updateLink = true) {
     videos.forEach(video => video.pause());
     tabs.forEach(item => {
       const active = item === tab;
@@ -11,6 +11,7 @@
     });
     const video = document.getElementById(tab.getAttribute('aria-controls')).querySelector('video');
     if (video.preload === 'none') { video.preload = 'metadata'; video.load(); }
+    if (updateLink) history.replaceState(null, '', '#' + tab.getAttribute('aria-controls'));
     if (focus) {
       tab.focus({preventScroll: true});
       tab.scrollIntoView({block: 'nearest', inline: 'nearest', behavior: 'instant'});
@@ -24,6 +25,26 @@
       event.preventDefault();
       selectFilm(tabs[positions[event.key]], true);
     });
+  });
+  function selectLinkedFilm() {
+    const tab = tabs.find(item => '#' + item.getAttribute('aria-controls') === location.hash);
+    if (!tab) return;
+    selectFilm(tab, false, false);
+    requestAnimationFrame(() => document.getElementById(tab.getAttribute('aria-controls')).scrollIntoView({block: 'start', behavior: 'instant'}));
+  }
+  addEventListener('hashchange', selectLinkedFilm);
+  selectLinkedFilm();
+  document.querySelectorAll('.video-work').forEach(panel => {
+    const row = document.createElement('div'); row.className = 'film-share';
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'plain-link';
+    button.textContent = '复制这部视频的分享链接 ↗';
+    const status = document.createElement('span'); status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
+    const url = new URL(document.querySelector('meta[property="og:url"]').content); url.hash = panel.id;
+    button.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(url.href); status.textContent = '链接已复制，打开即定位到这部作品。'; }
+      catch { status.textContent = '分享链接：' + url.href; }
+    });
+    row.append(button, status); panel.querySelector('.video-caption').after(row);
   });
   videos.forEach(video => video.addEventListener('play', () => videos.forEach(other => { if (other !== video) other.pause(); })));
   document.querySelectorAll('.video-work').forEach(panel => {
